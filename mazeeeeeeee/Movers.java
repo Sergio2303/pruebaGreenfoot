@@ -17,6 +17,7 @@ public class Movers extends Actor
        //
     }
     public void moveAndTurn(){
+        //esto lo usare para poder mover mi obejto en cualquier parte del mapa
         if(Greenfoot.isKeyDown("right"))
         {
             setRotation(0);
@@ -39,7 +40,8 @@ public void slideAround()
 {
     int x = getX();
     int y = getY();
-    
+    //esto es para poder mover a mi personaje principal en cualquier parte que
+    // dese el jugador. 
            if(Greenfoot.isKeyDown("right"))
         {
             setLocation(x + 4, y);

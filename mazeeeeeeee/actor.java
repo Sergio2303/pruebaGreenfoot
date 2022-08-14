@@ -1,5 +1,5 @@
  import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
+//personaje Principal
 /**
  * Write a description of class actor here.
  * 
